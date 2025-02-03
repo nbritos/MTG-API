@@ -24,7 +24,7 @@ namespace MagicTCGReviewApp.Models
         public int? Lealtad { get; set; } //opcional para planeswalkers
         public string UrlImagen { get; set; }
         public string Artista { get; set; }
-        public List<Habilidad> Habilidades { get; set; } = new List<Habilidad>;
+        public List<Habilidad> Habilidades { get; set; } = new List<Habilidad>();
 
     }
 }
